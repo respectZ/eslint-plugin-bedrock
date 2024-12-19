@@ -1,0 +1,33 @@
+{
+  "name": "@svdex/eslint-plugin-bedrock",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write .",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "eslint",
+    "minecraft",
+    "bedrock"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "respectZ",
+  "license": "ISC",
+  "description": "ESLint plugin for Minecraft: Bedrock Edition Add-on Development.",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.18.1",
+    "@typescript-eslint/parser": "^8.18.1",
+    "eslint": "^9.17.0",
+    "prettier": "^3.4.2",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@typescript-eslint/utils": "^8.18.1"
+  }
+}
