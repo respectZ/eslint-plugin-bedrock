@@ -37,7 +37,7 @@ export default [
       "bedrock-linting": bedrockLinting,
     },
     rules: {
-      "bedrock-linting/no-name-selector": "error",
+      "bedrock-linting/name-selector": "error",
     },
   },
 ];

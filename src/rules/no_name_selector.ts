@@ -2,7 +2,7 @@ import { createRule } from "../lib/create_rule";
 import { parseCommand } from "../lib/parse_command";
 
 export const noNameSelector = createRule({
-  name: "no-name-selector",
+  name: "name-selector",
   meta: {
     type: "problem",
     docs: {
